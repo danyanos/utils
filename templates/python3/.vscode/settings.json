@@ -1,0 +1,38 @@
+{
+    "editor.fontFamily": "Anonymice Powerline",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.rulers": [
+        100
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnSave": true,
+    },
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+    "python.languageServer": "Default",
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100",
+        "--exclude",
+        ".venv/"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8",
+    "python.linting.flake8Args": [
+        "--max-line-length=100",
+        "--ignore=E121,E127,W291,W292,W293,W504"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "${workspaceFolder}/.venv/bin/mypy",
+    "python.linting.pylintEnabled": false,
+    "isort.path": [
+        "${workspaceFolder}/.venv/bin/isort"
+    ],
+}
