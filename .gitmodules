@@ -1,15 +1,15 @@
 [submodule "vim/pack/plugins/start/vim-airline"]
-	path = vim/pack/plugins/start/vim-airline
+	path = tool_configs/vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/pack/plugins/start/vim-airline-themes"]
-	path = vim/pack/plugins/start/vim-airline-themes
+	path = tool_configs/vim/pack/plugins/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule "vim/pack/plugins/start/vim-polyglot"]
-	path = vim/pack/plugins/start/vim-polyglot
+	path = tool_configs/vim/pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "vim/pack/plugins/start/vim-syntastic"]
-	path = vim/pack/plugins/start/vim-syntastic
+	path = tool_configs/vim/pack/plugins/start/vim-syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "vim/pack/plugins/start/vim-fugitive"]
-	path = vim/pack/plugins/start/vim-fugitive
+	path = tool_configs/vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
