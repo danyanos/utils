@@ -17,6 +17,9 @@ source → destination path for every config.
 - [ ] **Fonts**: install `fonts/AnonymousPro` and `fonts/Terminus` (see
       [docs/zsh_installation.md](zsh_installation.md#3-install-the-nerd-font) for
       OS-specific steps).
-- [ ] **Claude Code global config**: copy `agents/AGENTS.md` to `~/.claude/CLAUDE.md`.
+- [ ] **Claude Code global config**: copy `agents/AGENTS.md` to `~/.claude/CLAUDE.md`, and
+      `agents/settings.json` to `~/.claude/settings.json`.
+- [ ] **claude-powerline**: copy `tool_configs/claude-powerline/claude-powerline.json` to
+      `~/.claude/claude-powerline.json`.
 - [ ] **Python projects**: use `templates/python3` as the starting point for new
       Python apps (per-project, not machine-wide).

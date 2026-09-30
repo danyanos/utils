@@ -1,0 +1,113 @@
+{
+  "theme": "custom",
+  "display": {
+    "padding": 1,
+    "style": "powerline",
+    "charset": "unicode",
+    "colorCompatibility": "auto",
+    "autoWrap": true,
+    "lines": [
+      {
+        "segments": {
+          "directory": {
+            "enabled": true,
+            "style": "full"
+          },
+		  "git": {
+			  "enabled": true,
+			  "showSha": false,
+			  "showWorkingTree": false,
+			  "showOperation": false,
+			  "showTag": false,
+			  "showTimeSinceCommit": false,
+			  "showStashCount": false,
+			  "showUpstream": false,
+			  "showRepoName": false
+		  },
+          "model": {
+            "enabled": true
+          },
+          "context": {
+            "enabled": true,
+            "showPercentageOnly": "true",
+            "displayStyle": "squares",
+			"autocompactBuffer": 33000
+          },
+          "today": {
+            "enabled": true,
+            "type": "cost"
+          }
+        }
+      }
+	]
+  },
+  "colors": {
+    "custom": {
+      "directory": {
+        "bg": "#268bd2",
+        "fg": "#fdf6e3"
+      },
+      "git": {
+        "bg": "#859900",
+        "fg": "#fdf6e3"
+      },
+      "model": {
+        "bg": "#073642",
+        "fg": "#93a1a1"
+      },
+      "session": {
+        "bg": "#6c71c4",
+        "fg": "#fdf6e3"
+      },
+      "block": {
+        "bg": "#073642",
+        "fg": "#839496"
+      },
+      "today": {
+        "bg": "#2aa198",
+        "fg": "#fdf6e3"
+      },
+      "tmux": {
+        "bg": "#d33682",
+        "fg": "#fdf6e3"
+      },
+      "context": {
+        "bg": "#586e75",
+        "fg": "#eee8d5"
+      },
+      "contextWarning": {
+        "bg": "#b58900",
+        "fg": "#002b36"
+      },
+      "contextCritical": {
+        "bg": "#dc322f",
+        "fg": "#fdf6e3"
+      },
+      "metrics": {
+        "bg": "#073642",
+        "fg": "#93a1a1"
+      },
+      "version": {
+        "bg": "#586e75",
+        "fg": "#eee8d5"
+      }
+    }
+  },
+  "budget": {
+    "session": {
+      "warningThreshold": 80
+    },
+    "today": {
+      "amount": 20.0,
+      "warningThreshold": 90
+    },
+    "block": {
+      "amount": 20000000,
+      "type": "tokens",
+      "warningThreshold": 80
+    }
+  },
+  "modelContextLimits": {
+    "sonnet": 200000
+  }
+}
